@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmayi K - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            margin: 1rem 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            margin: 2rem 0;
+            color: #666;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 0.75rem;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tanmayi K</h1>
+        <p>DevOps Engineer | Cloud Specialist</p>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Experienced DevOps Engineer with over 4 years of expertise in cloud platform migrations, deployment automation,
+                and infrastructure management across AWS, Azure, and GCP environments. Skilled in deploying, configuring, and managing
+                Kubernetes clusters, CI/CD pipelines, and version control systems. Passionate about building scalable, secure, and reliable infrastructure solutions.
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Cloud Platforms:</strong> AWS, Azure, GCP</li>
+                <li><strong>Containerization & Orchestration:</strong> Kubernetes, Docker</li>
+                <li><strong>CI/CD Tools:</strong> Jenkins</li>
+                <li><strong>Configuration Management:</strong> Git, GitHub, Jira</li>
+                <li><strong>Monitoring:</strong> ELK Stack, Azure Monitor</li>
+                <li><strong>Scripting:</strong> Shell scripting, Azure CLI</li>
+                <li><strong>Networking:</strong> Virtual Network Configuration, Load Balancing, DNS, Peering</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>GSPANN | Software Engineer | May 2022 - August 2023</h3>
+            <p>Deployed and managed builds for QA, Integration, and Production environments. Worked extensively with Kubernetes clusters and Azure Kubernetes Service (AKS).</p>
+            <h3>Cognizant Technology Solutions | Jr. Software Engineer | Oct 2019 - April 2022</h3>
+            <p>Led Azure migrations and deployment tasks, creating pipelines, configuring Azure VM environments, and troubleshooting network connectivity.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>Migrated applications from on-premises to Azure Cloud.</li>
+                <li>Deployed Kubernetes clusters using AKS and Docker for containerization.</li>
+                <li>Designed CI/CD pipelines with Jenkins integrated with JIRA.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:senttotanmayi@gmail.com">senttotanmayi@gmail.com</a></p>
+            <p>Phone: +1 507-399-3107</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/koganti-tanmayi-8308a6231" target="_blank">koganti-tanmayi</a></p>
+
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tanmayi K. All rights reserved.</p>
+    </footer>
+</body>
+</html>
